@@ -1,0 +1,49 @@
+.dropdown.calc {
+    text-align: center;
+}
+
+.dropdown-toggle.calc {
+    padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+    background-color: #2FCFB3 !important;
+    border-radius: 3rem !important;
+}
+
+.feature-label {
+  letter-spacing: 1.5px !important;
+  font-size: 1.15rem !important;
+  text-transform: capitalize !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  display: inline-block !important;
+  
+}
+.feature-label.Mui-selected{
+  color: white !important;
+}
+.mobile-span{
+  display: none;
+  text-align: center;
+  margin: 1rem;
+  margin-top: 0;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  .tab-panel{
+    width: 100%;
+  }
+  .css-8atqhb{
+    width: 100% !important;
+  }
+  .mobile-span{
+    display: block;
+  }
+}
+@media only screen and (max-width: 500px){
+    .feature-label{
+      font-size: 1rem !important;
+    }
+    .tab-panel{
+      /* width: 80%; */
+    }
+}

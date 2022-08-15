@@ -1,0 +1,25 @@
+.Main {
+    background: #fefefe;
+    box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #000;
+    margin: 1.75rem auto;
+    margin-bottom: 5rem;
+    padding: 4rem 6rem;
+    width: 80%;
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 1400px;
+}
+
+@media only screen and (max-width: 900px) {
+    .Main {
+        padding: 2rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Main {
+        padding: 4rem 2rem;
+    }
+}
